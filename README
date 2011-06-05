@@ -1,0 +1,40 @@
+Blender 2.5 Import/Export scripts for Heroes of Newerth
+---------------------------------------------------
+
+Orginal scripts written by theli for Blender 2.49.
+
+See the following thread for details:
+http://forums.heroesofnewerth.com/showthread.php?t=65940
+
+These are modified versions from the orginals, changed
+to function on Blender 2.5*
+
+---------------------------------------------------
+
+Installation Instructions:
+
+    Copy the two script files to the Blender scripts path:
+
+       cp k2_import.py ~/.blender/2.57/scripts/addons/
+       cp k2_export.py ~/.blender/2.57/scripts/addons/
+
+    Within Blender, press space and select either
+      "Import HoN Model" or "Export HoN Model" for 
+      importing and exporting, respectively
+
+----------------------------------------------------
+
+Progress Status:
+
+      Import:
+ 
+           Geometry : Working
+              + Option available to flip UV coordinates
+              + Option available to remove double verts
+
+           Animation : Partially Working
+              - Skeleton import working
+              - Animation action states created with keyframes
+              - Animation data not correct
+
+       Export: No Progress yet
