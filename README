@@ -24,6 +24,17 @@ Installation Instructions:
 
 ----------------------------------------------------
 
+Notes:
+
+       The interfaces are still pretty hacky.
+
+       Right now the model file is hardcoded into
+       the script. It can be changed at the options
+       dialog, but the file browser does not seem to
+       work, so you need to type in the path manually.
+
+----------------------------------------------------
+
 Progress Status:
 
       Import:
